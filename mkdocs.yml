@@ -2,3 +2,10 @@ site_name: Rhi's Cookbook
 # site_url: https://mydomain.org/mysite
 theme:
   name: material
+  palette:
+    primary: custom
+  logo: assets/rhis_kitchen_icon.png
+  favicon: assets/favicon.png
+
+extra_css:
+  - stylesheets/extra.css

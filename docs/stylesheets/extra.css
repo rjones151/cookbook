@@ -1,0 +1,30 @@
+:root {
+    --md-primary-fg-color:        #867070;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+  }
+
+
+:root > * {
+    --md-footer-fg-color:                #867070;
+    --md-footer-fg-color--light:         #867070;
+    --md-footer-fg-color--lighter:       #D5B4B4;
+    --md-footer-bg-color:                #D5B4B4;
+    --md-footer-bg-color--dark:          #F5EBEB;
+  
+}
+
+header {
+    padding: 20px; /* Adjust the value as needed */
+  }
+
+
+.md-header__button.md-logo {
+    margin: 0;
+    padding: 0;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 3rem;
+    width: rem;
+}
